@@ -11,8 +11,8 @@ public class UserService extends PasswordValidator {
         }
     }
 
-        public void saveUser (User user) {
-            System.out.println("User " + user.toString() + " was saved to database!!!");
-        }
+    public void saveUser(User user) {
+        System.out.println("User " + user.toString() + " was saved to database!!!");
     }
+}
 
